@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+        <title>Departure board</title>
+        <link rel="stylesheet" href="style.css"></style>   
+    </head>
+
+    <body>
+        <div class="display - container">
+            <header>
+                <h1>DEPARTURES</h1>
+                <div class="clock-container">
+                    <div id="clock">00:00:00</div>
+                    <div class="timezone">LOCAL TIME • GMT-7</div>
+                </div>
+            </header>
+
+            <table class="departures-table">
+                <thead>
+                    <tr>
+                        <th>TIME</th>
+                        <th>FLIGHT</th>
+                        <th>DESTINATION</th>
+                        <th>GATE</th>
+                        <th>STATUS</th>
+                    </tr>
+                </thead>
+                <tbody id="board">
+                    </tbody>
+            </table>
+
+            <div class="board" id="board"></div>
+
+            <footer>
+                <div class="buttons">
+                    <button id="btn-add">Add Departure</button>
+                    <button id="btn-reset">Reset Board</button>
+                </div>
+
+                <div class="report" id="report">
+                    0 departures • 0 boarding • 0 delayed
+                </div>
+            </footer>
+
+            <div class="legend">
+                <span class="on-time">■ ON TIME</span>
+                <span class="boarding">■ BOARDING</span>
+                <span class="delayed">■ DELAYED</span>
+                <span class="gate-closed">■ GATE CLOSED</span>
+                <span class="departed">■ DEPARTED</span>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

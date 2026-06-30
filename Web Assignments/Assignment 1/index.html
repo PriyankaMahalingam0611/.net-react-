@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Northstar Astronomy Club</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="container header-container">
+                <a href="/" class="logo">
+                    <span class="logo-icon">✦</span> Northstar
+                </a>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#events">Events</a></li>
+                        <li><a href="#schedule">Schedule</a></li>
+                        <li><a href="#join">Join</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="stars" aria-hidden="true">
+                    <div class="star" style="top: 20%; left: 10%;"></div>
+                    <div class="star" style="top: 40%; left: 30%;"></div>
+                    <div class="star" style="top: 15%; left: 80%;"></div>
+                    <div class="star" style="top: 60%; left: 70%;"></div>
+                    <div class="star" style="top: 70%; left: 20%;"></div>
+                </div>
+                <div class="container hero-container">
+                    <p class="eyebrow">CEDAR HILL • EVERY CLEAR FRIDAY</p>
+                    <h1>Look up with us.</h1>
+                    <p class="subtext">A community of stargazers meeting every clear Friday night.</p>
+                    <a href="#join" class="btn btn-primary">Join the club</a>
+                </div>
+            </section>
+
+            <section class="events" id="container section">
+                <h2>Upcoming Events</h2>
+                <div class="events-grid">
+                    <article class="card">
+                        <div class="card-header">
+                            <h3>Jupiter night</h3>
+                            <span class="badge">New</span>
+                        </div>
+                        <p class="card-date">Apr 12</p>
+                        <p class="card-desc">The gas giant and its four Galilean moons.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-header">
+                            <h3>Lunar close-up</h3>
+                        </div>
+                        <p class="card-date">Apr 26</p>
+                        <p class="card-desc">Craters along the terminator.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-header">
+                            <h3>Saturn's rings</h3>
+                        </div>
+                        <p class="card-date">May 10</p>
+                        <p class="card-desc">The biggest "wow" for newcomers.</p>       
+                    </article>
+                </div>
+            </section>
+
+            <section id="schedule" class="container section">
+                <h2>Spring Schedule</h2>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>DATE</th>
+                                <th>LOCATION</th>
+                                <th>TARGET</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Apr 12</td>
+                                <td>Cedar Hill</td>
+                                <td>Jupiter</td>
+                            </tr>
+                            <tr>
+                                <td>Apr 26</td>
+                                <td>Cedar Hill</td>
+                                <td>The Moon</td>
+                            </tr>
+                            <tr>
+                                <td>May 10</td>
+                                <td>Dunes Park</td>
+                                <td>Saturn</td>
+                            </tr>
+                            <tr>
+                                <td>May 24</td>
+                                <td>Cedar Hill</td>
+                                <td>Globular clusters</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section id="join" class="container section form-section">
+                <h2>Join the club</h2>
+                <form action="#" method="POST" class="join-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>  
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="experience">Experience</label>
+                        <select id="experience" name="experience" required>
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="beginner">Beginner</option>
+                            <option value="intermediate">Intermediate</option>
+                            <option value="advanced">Advanced</option>                      
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Join the club</button>
+                </form> 
+            </section>
+        </main>
+        
+        <footer class="site-footer">
+            <div class="container">
+                <p>Northstar Astronomy Club - Cedar Hill - hi@northstar.club</p>
+                <p>&copy; 2026 Northstar - Built with HTML & CSS.</p>
+                
+            </div> 
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
