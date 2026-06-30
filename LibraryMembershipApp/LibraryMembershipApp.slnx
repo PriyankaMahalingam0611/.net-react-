@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="LibraryMembershipApp.Tests/LibraryMembershipApp.Tests.csproj" Id="cb3c420c-321b-4cd3-bb71-fa619ce2ed15" />
+  <Project Path="LibraryMembershipApp/LibraryMembershipApp.csproj" />
+</Solution>
