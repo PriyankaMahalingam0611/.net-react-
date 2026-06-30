@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ECommerceBilling.Tests/ECommerceBilling.Tests.csproj" Id="7136eb3b-ceee-483e-83c2-6dc0235b0505" />
+  <Project Path="ECommerceBilling/ECommerceBilling.csproj" />
+</Solution>
